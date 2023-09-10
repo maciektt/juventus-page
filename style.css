@@ -14,24 +14,23 @@
 /* ----------------------NAVBAR---------------------------------------------------------------- */
 .navbar{
     display: flex;
-    background-color: azure;
-
-
+    background-color: white;
 }
 .logo{
     
     height: 160px;
     width: 30%;
     display: flex;
+    align-items: center;
     justify-content: center;
 
 }
 .logojuve{
-    width: 270px;
+    width: 200px;
     
 }
 .mid-navbar{
-    background-color: azure;
+    
     width: 12%;
     display: flex;
     justify-content: center;
@@ -50,7 +49,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: azure;
+    
     width: 58%;
 
 }
@@ -64,42 +63,112 @@
 .menu:hover{
     color: red;
     cursor: pointer;
+    transition: 0.5s ease;
+
 }
 .navbar-choice{
     text-decoration: none;
 }
-.socialmedia{
+
+/* -------------------------------------Section---------------------------------------------------- */
+.Stadium{
+    width: 100%;
+}
+.section{
+    background-image:url(JuveStadium.jpg);
+}
+
+
+
+.section{
     display: flex;
-    align-items: start;  
-    flex-direction: row;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.bestgoals{
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -300px;
+    border: solid 10px red;
+}
+.goals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 0px;
+}
+/* ------------------------Footer-------------------------------------------------------------------------- */
+.footer{
+    /* background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9037990196078431) 8%, rgba(80,111,140,0.9037990196078431) 66%, rgba(28,26,26,1) 87%, rgba(6,6,6,1) 96%, rgba(29,29,29,1) 100%); */
+    /* display:grid ;
+    grid-gap: 15px;
+    /* background-color: azure; */
+    background-color: white;
+    font-size: 19px;
+    font-family: cursive; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
 
-
-
-.fb{
-    width: 30px;
-    height: 30px;
+.sociallink{
+    text-decoration: none;
+    color: black;
+}
+.down-footer{
+    
+    color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    padding-bottom: 1rem;
 
 }
-.insta{
-    width: 30px;
-    height: 30px;
-      
-}
-.tiktok{
-    width: 30px;
-    height: 30px;
+.made{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+
 }
 
+.pusty{
+    background-color: brown;
+    
+    margin-top: -4px;
+    height: 18px;
+}
+.social{
+    width: 40px;
+    height: auto;
+    
+}
+.social:hover{
+    transform: scale(1.12);
+    transition: .3s ease;
+}
+.up-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 2rem;
+    background-color: black;
+    border-radius: 15px;
+    width: 220px;
+    margin-top: 1rem;
 
-
-
-
-
-
-
+}
 
 
 
